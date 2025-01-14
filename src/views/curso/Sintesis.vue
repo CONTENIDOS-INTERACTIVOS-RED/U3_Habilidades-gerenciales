@@ -2,7 +2,7 @@
 .curso-main-container.creditos-vista
   BannerInterno(subTitulo="SÍNTESIS")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 Esta unidad explora la importancia del liderazgo y la comunicación en el contexto empresarial, destacando cómo estos elementos son fundamentales para el éxito organizacional. Se abordarán conceptos clave relacionados con el liderazgo, así como la influencia del potencial humano y el clima empresarial en el desempeño de las organizaciones.
+    p.mb-4.mb-md-5 En esta unidad, se han analizado aspectos esenciales para la gestión eficiente de proyectos en seguridad y salud en el trabajo, abordando la priorización de actividades, la identificación de habilidades emocionales clave para conformar equipos exitosos y la integración de conceptos fundamentales como el coaching, el empowerment y la administración efectiva del tiempo.
     figure
       img(src='@/assets/componentes/sintesis.png', alt='Texto que describa la imagen')
     

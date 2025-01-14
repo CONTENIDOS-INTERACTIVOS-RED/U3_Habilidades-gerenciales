@@ -22,7 +22,7 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 El liderazgo trasciende posiciones jerárquicas, siendo la capacidad de influir, inspirar y motivar. Incluye características como comunicación asertiva, empatía, toma de decisiones y adaptabilidad, esenciales para guiar equipos y fomentar un ambiente colaborativo. La comunicación, tanto verbal como no verbal, fortalece relaciones y promueve la claridad en objetivos. Un clima empresarial positivo impulsa el potencial humano, mejorando la motivación y el desempeño. Integrando liderazgo, comunicación y clima organizacional, se asegura el éxito sostenible. 
+              p.descripcion.mb-4 El coaching es un proceso de acompañamiento que potencia habilidades, fomenta el autoconocimiento y ayuda a alcanzar metas personales o profesionales. Se distingue de la psicología por su enfoque en el presente y el futuro, promoviendo la responsabilidad y la toma de decisiones. El empowerment, clave para el liderazgo, delega responsabilidades y fomenta la confianza y la autonomía en los equipos. Por último, la administración efectiva del tiempo, apoyada en técnicas como la matriz de Eisenhower y el timeboxing, permite priorizar tareas, reducir distracciones y equilibrar la vida laboral y personal, optimizando el bienestar y la productividad.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

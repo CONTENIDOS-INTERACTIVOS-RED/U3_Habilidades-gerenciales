@@ -16,8 +16,8 @@ export default {
         imagen: require('@/assets/curso/banner-principal-decorativo-2.svg'),
       },
     ],
-    numeroUnidad: '1',
-    tituloUnidad: 'Habilidades, competencias y actitudes',
+    numeroUnidad: '3',
+    tituloUnidad: 'Trabajo en equipo y equipos de alto desempeño',
   },
   menuPrincipal: {
     menu: [
@@ -31,30 +31,23 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo:
-          'Liderazgo: conceptualización, características y modelos empresariales de liderazgo',
+        titulo: 'Coaching',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Características del liderazgo',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Modelos empresariales de liderazgo',
-            hash: 't_1_2',
-          },
-        ],
+        subMenu: [],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'La comunicación como fundamento del éxito empresarial',
+        titulo: 'Empowerment ',
         desarrolloContenidos: true,
+        subMenu: [],
+      },
+      {
+        nombreRuta: 'tema3',
+        icono: 'far fa-file-alt',
+        numero: '3',
+        titulo: 'Administración efectiva del tiempo',
         subMenu: [],
       },
       {
@@ -95,118 +88,116 @@ export default {
   referencias: [
     {
       referencia:
-        'Adame, R. (2017). La invención del futuro: el desafío del liderazgo. Bubok Publishing S.L.',
+        'Alles, M. A. (2007). Rol del jefe: cómo ser un buen jefe. Buenos Aires, Argentina: Ediciones Granica.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/66683?page=18',
+    },
+    {
+      referencia:
+        'Barbosa Cano, E. (2014). Administración del tiempo: cómo evitar que se desperdicie en el trabajo. Grupo Vanchri.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/167010?page=1',
+    },
+    {
+      referencia:
+        'Menéndez Cuenca, J. L. (2023). Principios del coaching (3 ed.). Madrid: Bubok Publishing S.L.',
       link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/116513?page=44',
+        'https://elibro.net/es/ereader/tecnologicadeloriente/260546?page=32',
     },
     {
       referencia:
-        'Bordas Martínez, M. J. (2016). Gestión estratégica del clima laboral. UNED - Universidad Nacional de Educación a Distancia.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/48843',
-    },
-    {
-      referencia:
-        'Castro, A. D. (2014). Comunicación organizacional: técnicas y estrategias. Barranquilla, Colombia: Universidad del Norte.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/69924?page=19',
-    },
-    {
-      referencia:
-        'Lazzati, S. C., & Tailhade, M. (2019). Liderazgo gerencial. Ediciones Granica.',
+        'Muradep, L., Goldvarg, D. y Perel de Goldvarg, N. (2022). Coaching Pack (1 ed.). Buenos Aires: Ediciones Granica.',
       link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/151212?page=34',
+        'https://elibro.net/es/ereader/tecnologicadeloriente/267032?page=36',
     },
     {
       referencia:
-        'Mercader Juan, C., & Gairín Sallán, J. (2018). Liderazgo y gestión del talento en las organizaciones. LA LEY Soluciones Legales S.A.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/63188?page=9',
-    },
-    {
-      referencia:
-        'Ramos Ramos, P. (Coord.). (2015). Dirección de equipos de trabajo: liderazgo y motivación (2.ª ed.). Editorial ICB.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/105616',
-    },
-    {
-      referencia:
-        'Ruiz Speare, O. (2017). Liderazgo. Editorial Alfil, S. A. de C. V.',
+        'Pasquín, F. (2023). ¡No tengo tiempo! Claves para optimizar el tiempo y mejorar la gestión empresarial (1 ed.). FC Editorial.',
       link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/117658?page=33',
+        'https://elibro.net/es/ereader/tecnologicadeloriente/275488?page=53',
     },
     {
       referencia:
-        'Seisdedos, N. (2003). El clima laboral y su medida. Colegio Oficial de la Psicología de Madrid.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/21221?page=',
+        'Pérez Rodríguez, M. D. (Coord.). (2017). Coaching. Editorial ICB.',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/113235?page=10',
     },
     {
       referencia:
-        'Ulrich, D., & Smallwood, N. (2008). Marca de liderazgo. Madrid: LID Editorial España.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/271460',
+        'Ramos Ramos, P. (Coord.). (2015). Dirección de equipos de trabajo: liderazgo y motivación (2 ed.). Editorial ICB.',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/105616?page=32',
     },
     {
       referencia:
-        'Valencia Tovar, Á. (2015). El liderazgo, clave del éxito en la empresa. Colegio de Estudios Superiores de Administración - CESA.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/222463',
+        'Rodríguez González, Á. (2019). Coaching empresarial (1 ed.). Málaga, España: Editorial ICB.',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/225276?page=48',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Administración del tiempo',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Habilidad para gestionar el tiempo de manera eficiente, priorizando tareas y reduciendo distracciones.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Autoconocimiento',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Capacidad de una persona para comprender sus propias emociones, comportamientos y pensamientos.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Batching',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Técnica para agrupar tareas similares y realizar actividades relacionadas en un mismo bloque de tiempo.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Coaching',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Proceso de acompañamiento profesional para ayudar a una persona a alcanzar metas personales o profesionales.',
     },
     {
-      termino: 'Moda',
+      termino: 'Empowerment',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Delegación de poder y autonomía a los empleados para fomentar la responsabilidad y el liderazgo compartido.',
     },
     {
-      termino: 'Diseña',
+      termino: 'Feedback',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Retroalimentación dada a una persona o equipo para mejorar su desempeño y resultados.',
     },
     {
-      termino: 'DIseño',
+      termino: 'Inteligencia emocional',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Capacidad para gestionar las propias emociones y comprender las de los demás de manera efectiva.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Kairos',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Concepto de tiempo cualitativo que se enfoca en el momento oportuno y significativo.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Multitasking',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Realización de múltiples tareas simultáneamente, alternando rápidamente entre ellas.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Procrastinación',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Tendencia a posponer tareas importantes, priorizando actividades menos relevantes.',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Proxémica',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Estudio del uso del espacio personal y la distancia en la comunicación interpersonal.',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Timeboxing',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Técnica de gestión del tiempo que divide tareas en bloques específicos y predefinidos.',
+    },
+    {
+      termino: 'Visión organizacional',
+      significado:
+        'Idea clara y compartida sobre el futuro deseado de una organización.',
     },
   ],
   complementario: [
