@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'1. Liderazgo: conceptualización, características y modelos empresariales de liderazgo'")
+  BannerInterno(:subTitulo="'1. Coaching'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
     .row.mb-4

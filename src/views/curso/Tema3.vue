@@ -61,7 +61,7 @@
         TarjetaAudio.color-primario.bg-white.mb-3(
             texto="Proceso de descarga de Técnicas para la administración efectiva del tiempo."
             tiempo
-            :audio="require('../../assets/componentes/audios/audio-ej.mp3')"
+            :audio="require('../../assets/componentes/audios/Podcast_contenido_unidad_III_Habilidades gerenciales y pedagógicas.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
         )
 
@@ -70,7 +70,7 @@
     .row.mb-4
       .col-6.col-md-4.col-lg-3.mx-auto(data-aos="fade-up")
         .bg-azul-claro.p-4.h-100.d-flex.flex-column.justify-content-center.mb-3.text-center
-          p.text-bold.mb-2.text-small Ausentismo y rretardos:
+          p.text-bold.mb-2.text-small Ausentismo y retardos:
           p.mb-0.text-small Falta de compromiso o desmotivación.
       .col-6.col-md-4.col-lg-3.mx-auto(data-aos="fade-up")
         .bg-azul-claro.p-4.h-100.d-flex.flex-column.justify-content-center.mb-3.text-center
